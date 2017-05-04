@@ -1,8 +1,8 @@
-#define pinSalida 13 //definimos una constante con el pin que vamos a utilizar
+#define pinSalida 11 //definimos una constante con el pin que vamos a utilizar
 
 void setup() {//Esta funcion solo se ejecuta una vez
   //Aca llamamos las funciones de configuracion (modo de pines, inicializar el puerto serial, etc...)
-  pinMode(pinSalida, OUTPUT); //inicializamos el pin como una salida
+  pinMode(pinSalida, OUTPUT); //declaramos el pin como una salida digital (HIGH o LOW, 0 o 5V)
 }
 
 void loop() {// Esta fucion se repite infinitamente

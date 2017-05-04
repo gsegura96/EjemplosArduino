@@ -1,20 +1,22 @@
 
+# LED
 ### Polaridad
 El pin negativo del LED se puede distinguir de dos maneras:
-* Tiene la patilla corto
+
+* Tiene la patilla más corta
 * Tiene una muesca (lado plano)
 <p align="center">
 <img src="pinout.png" align = "center">
 </p>
 
-Conexión:
-Al conectar un LED ser requiere colocar una resistencia en serie con este, para que se dane por un exceso de corriente. Normalmente esta resistencia es de 330 o 470 ohmios.
+###Conexión
+Al conectar un LED ser requiere colocar una resistencia en serie con este, para que se dañe por un exceso de corriente. Normalmente esta resistencia es de 330 o 470 ohmios.
 <p align="center">
 <img src="montaje.png" align = "center">
 </p>
 
 
-Parpadeo simple:
+### Parpadeo simple
 La función “digitalWrite(pin, estado)” nos permite encender o apagar (0 o 5 voltios) un pin del Arduino, con esta señal podemos controlar el encendido de un LED.
 ```c++
 #define pinSalida 11 //definimos una constante con el pin que vamos a utilizar
@@ -33,7 +35,7 @@ void loop() {// Esta fucion se repite infinitamente
 
 ```
 
-PWM:
+### PWM
 Con la función “analogWrite(pin, valor)” podemos controlar voltajes intermedios entre 0 y 5V. El parámetro “valor” debe ser un numero entre 0 y 255.
 ```c++
 #define pinSalida  11 // pin PWM (puede ser 3, 5, 6, 9, 10 o 11)
