@@ -10,7 +10,7 @@ El pin negativo del LED se puede distinguir de dos maneras:
 </p>
 
 ### Conexión
-Al conectar un LED ser requiere colocar una resistencia en serie con este, para que se dañe por un exceso de corriente. Normalmente esta resistencia es de 330 o 470 ohmios.
+Al conectar un LED se requiere colocar una resistencia en serie con este, para que se dañe por un exceso de corriente. Normalmente esta resistencia es de 330 o 470 ohmios.
 <p align="center">
 <img src="montaje.png" align = "center">
 </p>
