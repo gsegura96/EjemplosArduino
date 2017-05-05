@@ -5,8 +5,7 @@ La libreria utilizada para la comunicacion serial en Python es PySerial, que pod
 pip install pyserial
 ```
 
-pip install pyserial
-### Conexión:
+### Conexión
 Se debe conectar el Arduino a la computadora mediante un cable USB y con el IDE reconocer cual puerto le fue asignado (COM_ en Windows o /dev/tty_ en Linux).
 
 
