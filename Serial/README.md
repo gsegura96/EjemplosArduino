@@ -38,7 +38,7 @@ while 1:
   ```
 
 ### Separación por comandos
-Una manera sencilla para facilitar la lectura de datos es definir una estuctura de comandos conocidos por ambos programas y asi poder parsear los sobstrings que componen cada lectura serial.
+Una manera sencilla para facilitar la lectura de datos es definir una estuctura de comandos conocidos por ambos programas y asi poder parsear los substrings que componen cada lectura serial.
 ```python
 import serial
 import time
