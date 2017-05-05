@@ -2,7 +2,7 @@
 
 void setup() {//Esta funcion solo se ejecuta una vez
   //Aca llamamos las funciones de configuracion (modo de pines, inicializar el puerto serial, etc...)
-  pinMode(pinSalida, OUTPUT); //declaramos el pin como una salida digital (HIGH o LOW, 0 o 5V)
+  pinMode(pinSalida, OUTPUT); //inicializamos el pin como una salida
 }
 
 void loop() {// Esta fucion se repite infinitamente
