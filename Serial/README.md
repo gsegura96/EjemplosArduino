@@ -20,7 +20,7 @@ void loop(){
 }
 ```
 
-## Pyhton
+## Python
 ### Lectura simple
 Nos permite leer exactamente lo que envia el Arduino, pero contiene varios caracteres "basura"
 ```python
