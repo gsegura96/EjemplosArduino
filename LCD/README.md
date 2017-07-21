@@ -15,8 +15,8 @@
 <img src="montaje.png" align = "center">
 </p>
 
-### Lectura simple
-Nos permite leer el estdo de un pin analógico, retorna un valor entre 0 y 1023.
+### Escritura simple
+Nos permite mostrar texto en la pantalla.
 ```c++
 // incluir la libreria
 #include <LiquidCrystal.h>
