@@ -2,6 +2,7 @@
 Ejemplos basicos de Arduino para un taller introductorio
 
 * [Instalación](/Instalacion/README.md)
+* [Conceptos basicos](/ConceptosBasicosProgramacion/README.md)
 * [LEDs y digitalWrite](/LED/README.md)
 * [Botones y digitalRead](/Boton/README.md)
 * [Potenciometros y analogRead](/Potenciometro/README.md)
