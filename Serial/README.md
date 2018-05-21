@@ -66,6 +66,5 @@ while 1:
         comando = datos[:datos.index("%")]
         valor = datos[datos.index("%")+1:]
         print("comando: ",comando, "  valor: ", valor)
-    time.sleep(1)
 
 ```
