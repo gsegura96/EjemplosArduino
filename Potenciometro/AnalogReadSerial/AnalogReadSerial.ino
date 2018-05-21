@@ -1,4 +1,4 @@
-#define pinAnalogico = A0;  // Pin al que se conecta el potenciometro
+#define pinAnalogico A0  // Pin al que se conecta el potenciometro
 int lectura = 0;
 void setup() {
   //inicializa la comunicacion serial

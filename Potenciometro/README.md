@@ -1,17 +1,25 @@
 # Potenciometro
 
 ### Conexión:
-Los pines del potenciometro es una resistencia que varia segun se rote su perilla, con esto podemos crear un divisor de voltaje que nos brinda una señal entre 0 y 5V.
+#### Potenciometro:
+El potenciometro es una resistencia que varia según se rote su perilla, con esto podemos crear un divisor de voltaje que nos brinda una señal entre 0 y 5V.
 Se requiere conectar pin exterior a GND y el otro a 5V, el pin del centro va al Arduino(entradas analógicas: A0 a A5).
 
 <p align="center">
-<img src="montaje.png" align = "center">
+<img src="montaje1.png" align = "center">
+</p>
+
+#### Fotoresistecia
+Este componente varia su resistencia interna según la luz en el ambiente, puede ser utilizado junto con una resistencia fija, como un divisor de voltaje.
+
+<p align="center">
+<img src="montaje2.png" align = "center">
 </p>
 
 ### Lectura simple
 Nos permite leer el estdo de un pin analógico, retorna un valor entre 0 y 1023.
 ```c++
-#define pinAnalogico = A0;  // Pin al que se conecta el potenciometro
+#define pinAnalogico A0  // Pin al que se conecta el potenciometro
 int lectura = 0;
 void setup() {
   //inicializa la comunicacion serial
